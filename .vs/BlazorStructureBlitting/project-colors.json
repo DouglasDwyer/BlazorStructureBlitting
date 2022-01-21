@@ -5,7 +5,17 @@
       "ProjectGuid": "49cab5c1-e8a2-46f5-8852-f7988c9ae09d",
       "DisplayName": "BlazorStructureBlitting",
       "ColorIndex": 0
+    },
+    "aa517586-7ae0-4107-a13c-58b630822fda": {
+      "ProjectGuid": "aa517586-7ae0-4107-a13c-58b630822fda",
+      "DisplayName": "BlazorStructureBlitting",
+      "ColorIndex": 1
+    },
+    "cdf68fb7-502f-4002-818c-1b823ed25284": {
+      "ProjectGuid": "cdf68fb7-502f-4002-818c-1b823ed25284",
+      "DisplayName": "BlazorStructureBlitting",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 3
 }

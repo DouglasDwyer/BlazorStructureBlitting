@@ -22,7 +22,7 @@ Welcome to your new app.
         Console.WriteLine("Testing parameter blitting");
         Console.WriteLine("Calling with return type int:" + BlitToInt(42));
         Console.WriteLine("Calling with return type struct:" + BlitToIntStruct(new TestStruct() { Value = 42 }));
-        Console.WriteLine("Calling with return type enum:" + BlitToIntMarshalledStruct(new TestStruct() { Value = 42 }));
+        Console.WriteLine("Calling with return type struct and MarshalAs:" + BlitToIntMarshalledStruct(new TestStruct() { Value = 42 }));
 
     }
 
