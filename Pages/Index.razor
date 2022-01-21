@@ -19,6 +19,11 @@ Welcome to your new app.
         Console.WriteLine("Calling with return type struct:" + TestMethodStruct().Value);
         Console.WriteLine("Calling with return type enum:" + TestMethodEnum());
 
+        Console.WriteLine("Testing parameter blitting");
+        Console.WriteLine("Calling with return type int:" + BlitToInt(42));
+        Console.WriteLine("Calling with return type struct:" + BlitToIntStruct(new TestStruct() { Value = 42 }));
+        Console.WriteLine("Calling with return type enum:" + BlitToIntMarshalledStruct(new TestStruct() { Value = 42 }));
+
     }
 
     [DllImport("Test", EntryPoint = "TestMethod")]
@@ -27,6 +32,13 @@ Welcome to your new app.
     public static extern TestStruct TestMethodStruct();
     [DllImport("Test", EntryPoint = "TestMethod")]
     public static extern TestEnum TestMethodEnum();
+    
+    [DllImport("Test", EntryPoint = "BlitToInt")]
+    public static extern int BlitToInt(int val);
+    [DllImport("Test", EntryPoint = "BlitToInt")]
+    public static extern int BlitToIntStruct(TestStruct val);
+    [DllImport("Test", EntryPoint = "BlitToInt")]
+    public static extern int BlitToIntMarshalledStruct([MarshalAs(UnmanagedType.I4)] TestStruct val);
 
     public struct TestStruct
     {

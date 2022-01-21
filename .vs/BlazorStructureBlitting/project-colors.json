@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "49cab5c1-e8a2-46f5-8852-f7988c9ae09d": {
+      "ProjectGuid": "49cab5c1-e8a2-46f5-8852-f7988c9ae09d",
+      "DisplayName": "BlazorStructureBlitting",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

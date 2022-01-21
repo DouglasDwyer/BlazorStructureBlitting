@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "81Fw85wEwF0g9UXUmhlxlEMNdTOTYDBijDZMaaJub4ChZOrlHUvugqfEkrlBaPPRLHIY/errF54vg3TmXz5Vpg==",
+  "dgSpecHash": "DzCUshaY12VDyWE6QBMPu88Wzq2KIOHGWV1n54nQzVPntEuMfRwr1g4uXk2IlUcNALtQxA5Jd+wGPX5ZTKY+PA==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\BlazorStructureBlitting\\BlazorStructureBlitting\\BlazorStructureBlitting.csproj",
+  "projectFilePath": "C:\\Users\\Douglas\\Documents\\GitHub\\BlazorStructureBlitting\\BlazorStructureBlitting.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Douglas\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.1\\microsoft.aspnetcore.authorization.6.0.1.nupkg.sha512",
     "C:\\Users\\Douglas\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.1\\microsoft.aspnetcore.components.6.0.1.nupkg.sha512",

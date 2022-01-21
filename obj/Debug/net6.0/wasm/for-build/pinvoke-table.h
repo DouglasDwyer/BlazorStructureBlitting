@@ -1,5 +1,6 @@
 // GENERATED FILE, DO NOT MODIFY
 
+int BlitToInt (int);
 int CompressionNative_Crc32 (int,int,int);
 int CompressionNative_Deflate (int,int);
 int CompressionNative_DeflateEnd (int);
@@ -129,6 +130,7 @@ int SystemNative_UTimensat (int,int);
 int SystemNative_Write (int,int,int);
 int TestMethod ();
 static PinvokeImport Test_imports [] = {
+{"BlitToInt", BlitToInt}, // BlazorStructureBlitting
 {"TestMethod", TestMethod}, // BlazorStructureBlitting
 {NULL, NULL}
 };

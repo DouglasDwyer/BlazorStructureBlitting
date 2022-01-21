@@ -1,35 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\BlazorStructureBlitting\\BlazorStructureBlitting\\BlazorStructureBlitting.csproj": {}
+    "C:\\Users\\Douglas\\Documents\\GitHub\\BlazorStructureBlitting\\BlazorStructureBlitting.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\BlazorStructureBlitting\\BlazorStructureBlitting\\BlazorStructureBlitting.csproj": {
+    "C:\\Users\\Douglas\\Documents\\GitHub\\BlazorStructureBlitting\\BlazorStructureBlitting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\BlazorStructureBlitting\\BlazorStructureBlitting\\BlazorStructureBlitting.csproj",
+        "projectUniqueName": "C:\\Users\\Douglas\\Documents\\GitHub\\BlazorStructureBlitting\\BlazorStructureBlitting.csproj",
         "projectName": "BlazorStructureBlitting",
-        "projectPath": "D:\\Projects\\BlazorStructureBlitting\\BlazorStructureBlitting\\BlazorStructureBlitting.csproj",
+        "projectPath": "C:\\Users\\Douglas\\Documents\\GitHub\\BlazorStructureBlitting\\BlazorStructureBlitting.csproj",
         "packagesPath": "C:\\Users\\Douglas\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\BlazorStructureBlitting\\BlazorStructureBlitting\\obj\\",
+        "outputPath": "C:\\Users\\Douglas\\Documents\\GitHub\\BlazorStructureBlitting\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
           "C:\\Users\\Douglas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "D:\\Projects\\BlazorFileReader\\src\\Blazor.FileReader\\bin\\Release\\netstandard2.0\\publish": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.pkg.github.com/DouglasDwyer/index.json": {},
-          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-experimental/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
